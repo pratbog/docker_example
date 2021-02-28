@@ -1,3 +1,4 @@
+apk add git
 echo "# docker_example" >> README.md
 git init
 git add README.md
