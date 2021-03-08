@@ -1,11 +1,14 @@
-docker run -d -p 5000:5000 flask-sample
+//build file
 docker build -t flask-sample:latest .
+
+//run container
+docker run -d -p 5000:5000 flask-sample
+
+//running the .yml file
 docker-compose up
+
+//removing container
 docker rm 7eec365409bf
-0827b47f8766
-12cd02c447e4
-73c818a8a18f
-b2b9ce2e601a
-eff304524a5c
-d7605dc709f3
+
+//removing image
 docker image rm -f 95
