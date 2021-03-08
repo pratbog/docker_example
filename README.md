@@ -1,15 +1,18 @@
 //git_commands.txt and important_commands.txt are files with important commands related to this project
+<br />
 
-//Working:
-// Navigate into parent folder
-cd pratik_flask_demo
-cd web
-
-//create image:
-docker build -t flask-sample:latest .
+//Working:<br />
+// Navigate into parent folder<br />
+cd pratik_flask_demo<br />
+cd web<br /><br />
 
 
-//navigate to folder with .yml file
-cd ..
-//Use the docker-compose command to download and make the container up
-docker-compose up
+//create image:<br />
+docker build -t flask-sample:latest .<br /><br />
+
+
+
+//navigate to folder with .yml file<br />
+cd ..<br />
+//Use the docker-compose command to download and make the container up<br />
+docker-compose up<br />
