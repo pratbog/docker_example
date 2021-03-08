@@ -1,5 +1,7 @@
+//install git
 apk add git
-echo "# docker_example" >> README.md
+
+//git initialization for the first time
 git init
 git add README.md
 git commit -m "first commit"
